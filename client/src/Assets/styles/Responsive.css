@@ -1,0 +1,61 @@
+ @media only screen and (max-width:600px) {
+   .NavBar{
+        padding: 0px;
+        position: fixed;
+        top: 0;
+    }
+    .NavBar.resp{
+        width: 70%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: left;
+        z-index: 10000;
+        transition: 1s;
+    }
+    
+    .NavBar.resp a{
+        display: block;
+        float: none;
+    }
+    .NavBar.resp img{
+        src: url('../Images/1616319502695_.jpg');
+
+
+    }
+    .NavBar.resp li{
+        width: 100%;
+        display: block;
+    }
+    .NavBar a{
+        display: none;
+    }
+    .NavBar .secret{
+        padding: 12px;
+        display: block;
+        float: right;
+    }
+    .NavBar a.img{
+        display: block;
+        float: left;
+        /* width: 30px; */
+        margin: 12px;
+        src: local('../images/logo horizontal.png');
+        margin: 0;
+    }
+    .NavBar.resp a.img{
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 12px;
+        margin: 0;
+        src: local('../images/logo horizontal.png');
+    }
+    .back-icon{
+        display: block;
+    }
+    .conversation .textZone {
+        width: 100%;
+      }
+} 
